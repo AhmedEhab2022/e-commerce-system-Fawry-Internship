@@ -2,14 +2,6 @@
 
 A comprehensive Java-based e-commerce system for Fawry Rise Journey Fullstack Internship. It demonstrates object-oriented programming principles including inheritance, polymorphism, and interface implementation. The system manages different types of products, handles customer carts, and processes checkout operations with shipping calculations.
 
-## 📋 Table of Contents
-- [Features](#features)
-- [Architecture](#architecture)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Class Diagrams](#class-diagrams)
-
 ## ✨ Features
 
 ### Product Management
@@ -130,14 +122,6 @@ CheckoutService.checkout(customer);
 ```
 
 ## 📊 Class Diagram
-
-### Product Hierarchy
-```
-Product (implements ICloneable)
-├── ExpirableProduct (implements IExpirable)
-├── ShippableProduct (implements IShippable)
-└── ExpirableShippableProduct (implements IExpirable, IShippable)
-```
 
 ### Key Interfaces
 - **ICloneable**: Provides object cloning capability
