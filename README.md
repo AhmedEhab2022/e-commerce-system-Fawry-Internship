@@ -156,7 +156,10 @@ The system includes comprehensive error handling for:
 
 ## Main Class Sample
 ```java
-  // create products of different types
+  public class Main {
+
+  public static void main(String[] args) {
+    // create products of different types
     Product regularProduct = new Product("Regular Product", 10.0, 100);
     ExpirableProduct expirableProduct = new ExpirableProduct("Expirable Product", 15.0, 50, new Date(System.currentTimeMillis() + 86400000)); // expires in 1 day
     ExpirableProduct expiredProduct = new ExpirableProduct("Expired Product", 20.0, 30, new Date(System.currentTimeMillis() - 86400000)); // expired yesterday
@@ -209,6 +212,8 @@ The system includes comprehensive error handling for:
     customer2.addToCart(shippableProduct, 1);
     customer2.addToCart(expirableShippableProduct, 1);
     CheckoutService.checkout(customer2);
+  }
+}
   ````
 
 
