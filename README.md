@@ -105,6 +105,8 @@ CheckoutService.checkout(customer);
 ```
 ├── Main.java                          # Application entry point
 ├── README.md                          # Project documentation
+├── Assets/
+│   └── e-commerce-class-diagram.png   # Class diagram image
 ├── Interfaces/
 │   ├── ICloneable.java                # Cloning contract
 │   ├── IExpirable.java                # Expiration functionality
@@ -123,6 +125,8 @@ CheckoutService.checkout(customer);
 
 ## 📊 Class Diagram
 
+![Class Diagram](Assets/e-commerce-class-diagram.png)
+
 ### Key Interfaces
 - **ICloneable**: Provides object cloning capability
 - **IExpirable**: Manages expiration dates and validation
@@ -140,7 +144,7 @@ The system includes comprehensive error handling for:
 
 ## Main Class Sample
 ```java
-  public class Main {
+public class Main {
 
   public static void main(String[] args) {
     // create products of different types
