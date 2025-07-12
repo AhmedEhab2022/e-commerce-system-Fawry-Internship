@@ -205,41 +205,5 @@ public class Main {
   ````
 
 
-## Sample Output
-```
-Error adding product to cart: Cannot add expired product: Expired Product
--------------------------------------------------
-Error adding product to cart: Not enough stock for product: Shippable Product
--------------------------------------------------
-** Checkout receipt **
-Customer: John Doe
-2x Regular Product: 10.00
-1x Expirable Product: 15.00
-----------------------------------
-Subtotal: 25.0
-Amount: 25.0
-Balance after Payment: 175.0
--------------------------------------------------
-** Shipment notice **
-1x Shippable Product: 500.00g
-1x Expirable Shippable Product: 1000.00g
-Total package weight: 1.5kg
-
-** Checkout receipt **
-Customer: John Doe
-2x Regular Product: 10.00
-1x Expirable Product: 15.00
-1x Shippable Product: 50.00
-1x Expirable Shippable Product: 25.00
-----------------------------------
-Subtotal: 100.0
-Shipping: 5.0
-Amount: 105.0
-Balance after Payment: 70.0
--------------------------------------------------
-Error: Customer cannot be null.
--------------------------------------------------
-Error: Cart is empty. Cannot proceed to checkout.
--------------------------------------------------
-Insufficient balance for checkout, the total amount: 80.0. Your current balance is: 10.0
-```
+## Console Output
+![Console Output](Assets/console_output.png)
