@@ -206,4 +206,4 @@ public class Main {
 
 
 ## Console Output
-![Console Output](Assets/console_output.png)
+![Console Output](Assets/Console_Output.png)
